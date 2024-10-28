@@ -1,0 +1,140 @@
+/* Сброс стилей */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background: url('img.webp') no-repeat center center/cover;
+
+  }
+  
+  .header {
+    color: #fff;
+    /* height: 100vh; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin: 0 1rem;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cta-button {
+    background: #ff7b54;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .cta-button:hover {
+    background: #ff5722;
+  }
+  
+  .section {
+    padding: 2rem 1rem;
+  }
+  
+  .about-section, .services-section, .testimonials-section, .contact-section {
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+  
+  .services-section .service-item {
+    display: inline-block;
+    width: 30%;
+    margin: 1rem;
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .testimonials-section .testimonial {
+    margin: 1.5rem;
+    padding: 1rem;
+    border-left: 4px solid #ff7b54;
+    font-style: italic;
+  }
+  
+  .contact-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .contact-section label {
+    margin: 0.5rem 0;
+  }
+  
+  .contact-section input, .contact-section textarea {
+    width: 100%;
+    font-size: 15px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-section button {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    background: #ff7b54;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-section button:hover {
+    background: #ff5722;
+  }
+  
+  .footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
